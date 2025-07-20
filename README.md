@@ -1,30 +1,26 @@
-# 🛍️ Customer Segmentation with RFM Analysis
+# Customer Segmentation with RFM Analysis
 
 This project analyzes customer purchasing behavior using RFM (Recency, Frequency, Monetary) segmentation and visualizes insights with an interactive Power BI dashboard.
 
----
-
-## 📈 Power BI Dashboard
+## Power BI Dashboard
 
 The dashboard visualizes RFM results with:
   
-  - 💡 KPI Cards – Total Customers, # Champions, Avg Spend, Orders per Customer
+  - KPI Cards – Total Customers, # Champions, Avg Spend, Orders per Customer
   
-  - 🍩 Donut Chart – Segment Breakdown
+  - Donut Chart – Segment Breakdown
   
-  - 📉 Scatter Plot – Frequency vs Monetary
+  - Scatter Plot – Frequency vs Monetary
   
-  - 📊 Histogram – Recency Distribution
+  - Histogram – Recency Distribution
   
-  - 📋 Bar Chart – Avg Revenue by Segment
+  - Bar Chart – Avg Revenue by Segment
   
-  - 📑 Table – Drill-down with RFM scores
+  - Table – Drill-down with RFM scores
   
-  - 🎛 Slicers – Filter by Segment, RFM Score, R, F, M
+  - Slicers – Filter by Segment, RFM Score, R, F, M
 
----
-
-## 🛠️ Tools Used
+## 🛠Tools Used
   
   - Python (Pandas,	Data cleaning and transformation)
   
@@ -36,15 +32,11 @@ The dashboard visualizes RFM results with:
   
   - Git & GitHub	(Version control and project hosting)
 
----
-
-## 📸 Dashboard Preview
+## Dashboard Preview
 
 ![Sales Dashboard Screenshot](rfm_dashboard.png)
 
----
-
-📁 Files
+## Files
 
   - `https://www.kaggle.com/datasets/carrie1/ecommerce-data` - Dataset Used
   
@@ -58,14 +50,10 @@ The dashboard visualizes RFM results with:
   
   - `README.md` – Project overview and guide
 
----
-
 Sample sales dataset containing data:
 > `InvoiceNo`, `StockCode`, `Description`, `Quantity`, `InvoiceDate`, `UnitPrice`, `CustomerID`, `Country`
 
----
-
-##📊 RFM Analysis
+## RFM Analysis
 
 RFM metrics Calculated:
 
@@ -89,9 +77,7 @@ Scored each RFM value on a scale of 1–5 and classified customers into segments
 
   - Others	(Remaining customers)
 
----
-
-## 💡 Key Insights
+## Key Insights
 
   - Champions account for a significant share of total revenue.
   
